@@ -2,68 +2,135 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="screen-orientation" content="portrait">
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
 <title>title</title>
 <script type="text/javascript">
-		document.getElementsByTagName('html')[0].style.fontSize = document.documentElement.clientWidth/37.5 +'px';
-	</script>
-<!--<link rel="stylesheet" href="css/bootstrap.min.css" />
-<link rel="stylesheet" href="css/weui.css" />-->
+	document.getElementsByTagName('html')[0].style.fontSize = document.documentElement.clientWidth/3.75 +'px';
+</script>
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/weui.css" />
 
 
 <style>
 .home-header{
-	width: 37.5rem;
-	height:25rem;
+	height:2.5rem;
 	background:linear-gradient(180deg,rgba(7,129,255,1),rgba(81,172,252,1));
 	text-align: center;
-	padding: 0.1px;
+	padding-top: 0.2rem;
 }
 .home-header .title{
-	margin: 2.0rem 0;
-height:2.4rem;
-font-size:1.7rem;
-color:rgba(255,255,255,1);
-line-height:2.4rem;
+	margin-bottom: 0.17rem;
+	height:0.24rem;
+	font-size:0.17rem;
+	color:rgba(255,255,255,1);
+	line-height:0.24rem;
 }
 .home-header .left-flow-text{
-	margin-bottom: 0.9rem;
-	height:1.6rem;
-font-size:1.1rem;
-color:rgba(255,255,255,0.6);
-line-height:1.6rem;
+	margin-bottom: 0.04rem;
+	height:0.16rem;
+	font-size:0.11rem;
+	color:rgba(255,255,255,0.6);
+	line-height:0.16rem;
 }
 .home-header .left-flow-data{
-	margin-bottom: 1.0rem;
-	height:4rem;
-font-size:3.4rem;
-color:rgba(255,255,255,1);
-line-height:4rem;
+	margin-bottom: 0.08rem;
+	height:0.4rem;
+	font-size:0.34rem;
+	color:rgba(255,255,255,1);
+	line-height:0.4rem;
 }
 .home-header .left-flow-data span{
-	font-size:1.7rem;
+	font-size:0.17rem;
 }
 .home-header .desc{
-	margin-bottom: 2.0rem;
-height:2.2rem;
-font-size:1.3rem;
-color:rgba(255,255,255,1);
-line-height:2.2rem;
+	margin-bottom: 0.16rem;
+	height:0.22rem;
+	font-size:0.13rem;
+	color:rgba(255,255,255,1);
+	line-height:0.22rem;
 } 
 .home-header .desc .ico{
-	width:2.0rem;
-	height:2.0rem;
+	width:0.16rem;
+	height:0.16rem;
 }
-.home-header .open-btn-wrapper{
+.home-header .open-btn{
 	margin: 0 auto;
-	width:17rem;
-height:3.4rem;
-background:rgba(255,255,255,1);
-border-radius:1.8rem;
-font-size:1.6rem;
-color:rgba(30,150,255,1);
-line-height:3.0rem;
+	width:1.7rem;
+	height:0.34rem;
+	background:rgba(255,255,255,1);
+	border-radius:0.18rem;
+	font-size:0.16rem;
+	color:rgba(30,150,255,1);
+	line-height:0.34rem;
+}
+
+.home-body{
+	background: #FAFAFA;
+	padding: 0.1px;
+}
+
+.home-body .fenlei-wrapper{
+	margin: -0.2rem auto 0;
+	padding: 0 0.08rem;
+	width: 3.59rem;
+	height: 0.92rem;
+	background:rgba(255,255,255,1);
+	border-radius:0.08rem;
+}
+.home-body .fenlei-wrapper .item-img{
+	width: 0.27rem;
+	height: 0.27rem;
+	margin: 0.19rem auto 0.09rem;
+	line-height: 0;
+}
+.home-body .fenlei-wrapper .item-text{
+	text-align: center;
+	font-size:0.14rem;
+	color:rgba(0,0,0,0.87);
+	line-height:0.24rem;
+}
+
+.home-body .head-wrapepr{
+	height: 0.52rem;
+	font-size:0.20rem;
+	color:rgba(0,0,0,0.87);
+	line-height:0.28rem;
+}
+.home-body .head-wrapepr .more{
+	font-size:0.12rem;
+	color:rgba(0,0,0,0.6);
+	line-height:0.2rem;
+}
+.home-body .news-wrapper .body-wrapper{
+	font-size:0.17rem;
+	color:rgba(0,0,0,0.87);
+	line-height:0.24rem;
+}
+.home-body .news-wrapper .body-wrapper .news-notice{
+	height:0.44rem;
+	background:rgba(245,166,35,0.12);
+	font-size:0.13rem;
+	font-family:PingFangSC-Regular;
+	color:rgba(245,132,35,1);
+	line-height:0.44rem;	
+}
+.home-body .news-wrapper .body-wrapper .news-list{
+	background: #FFFFFF;
+}
+.home-body .news-wrapper .body-wrapper .news-list .news-img{
+	width: 1.11rem;
+	height: 0.74rem;
+    margin-right: 0;
+}
+.home-body .news-wrapper .body-wrapper .news-list .news-title p{
+    white-space: normal;
+    margin-bottom: 0.11rem;
 }
 </style>
 </head>
@@ -75,25 +142,110 @@ line-height:3.0rem;
 			<div class="left-flow-text">剩余外网流量</div>
 			<div class="left-flow-data">976.50<span> MB</span></div>
 			<div class="desc">
-				<img class="align-self-center mr-1 ico" src="img/ic_wifi_black_24px.svg" />
+				<img class="align-self-center ico" src="img/1wifi.png" width="100%" height="100%" />
 				<span>QZTL_WiFi 001</span>
-				<img class="align-self-center mr-1 ico" src="img/ic_wifi_black_24px.svg" />
+				<img class="align-self-center ico" src="img/1renshu.png" width="100%" height="100%" />
 				<span>34 人已连接</span>
 			</div>
-			<div class="open-btn-wrapper">
-				<div class="open-btn">开启外网</div>
-			</div>
+			<div class="open-btn">开启外网</div>
 		</div>
 		<div class="home-body">
-			
+			<div class="fenlei-wrapper weui-flex">
+				<div class="weui-flex__item">
+					<div class="item-img">
+						<img class="" src="img/1wifi.png"  width="100%" height="100%" />
+					</div>
+					<div class="item-text">数组阅读</div>
+				</div>
+				<div class="weui-flex__item">
+					<div class="item-img">
+						<img class="" src="img/1wifi.png" width="100%" height="100%" />
+					</div>
+					<div class="item-text">列车影院</div>
+				</div>
+				<div class="weui-flex__item">
+					<div class="item-img">
+						<img class="" src="img/1wifi.png" width="100%" height="100%" />
+					</div>
+					<div class="item-text">游戏大厅</div>
+				</div>
+				<div class="weui-flex__item">
+					<div class="item-img">
+						<img class="" src="img/1wifi.png" width="100%" height="100%" />
+					</div>
+					<div class="item-text">天路WiFi</div>
+				</div>
+			</div>
+			<div class="news-wrapper">
+				<div class="head-wrapepr weui-cell weui-cell_access">
+					<div class="weui-cell__bd">藏旅新闻</div>
+					<div class="weui-cell__ft more">更多</div>
+				</div>
+				<div class="body-wrapper">
+					<div class="news-notice weui-cell ">
+						<div class="weui-cell__bd">中国铁路青藏集团有限公司地处青藏高原东部，200</div>
+						<div class="weui-cell__ft more">查看</div>
+					</div>
+					<div class="news-list weui-panel">
+						<a href="" class="weui-media-box ">
+							<div class="weui-media-box__bd news-title ">
+								<p	 class="weui-media-box__title">海一样辽阔的湖面，玛尼堆连成的轨迹，摇曳的五彩...</p>
+								<div class="weui-media-box__desc">5月27日 15:51</div>
+							</div>
+							<div class=" weui-flex">
+								<div class="weui-flex__item news-img">
+									<img class="weui-media-box__thumb" src="img/1.png" width="100%" height="100%"/>
+								</div>
+								<div class="weui-flex__item news-img">
+									<img class="weui-media-box__thumb" src="img/1.png" width="100%" height="100%"/>
+								</div>
+								<div class="weui-flex__item news-img">
+									<img class="weui-media-box__thumb" src="img/1.png" width="100%" height="100%"/>
+								</div>
+							</div>
+						</a>
+						<a href="" class="weui-media-box weui-media-box_appmsg">
+							<div class="weui-media-box__bd news-title ">
+								<p	 class="weui-media-box__title">海一样辽阔的湖面，玛尼堆连成的轨迹，摇曳的五彩...</p>
+								<div class="weui-media-box__desc">5月27日 15:51</div>
+							</div>
+							<div class="weui-media-box__hd news-img ">
+								<img class="weui-media-box__thumb" src="img/1.png" width="100%" height="100%"/>
+							</div>
+						</a>
+						<a href="" class="weui-media-box weui-media-box_appmsg">
+							<div class="weui-media-box__bd news-title ">
+								<p class="weui-media-box__title">海一样辽阔的湖面，玛尼堆连成的轨迹，摇曳的五彩...</p>
+								<div class="weui-media-box__desc">5月27日 15:51</div>
+							</div>
+							<div class="weui-media-box__hd news-img ">
+								<img class="weui-media-box__thumb" src="img/1.png" width="100%" height="100%"/>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="movies-wrapper">
+				<div class="head-wrapepr weui-cell weui-cell_access">
+					<div class="weui-cell__bd">精品电影</div>
+					<div class="weui-cell__ft more">更多</div>
+				</div>
+				<div class="body-wrapper">
+					
+				</div>
+			</div>
+			<div class="novels-wrapper">
+				
+			</div>
+			<div class="games-wrapper"></div>
 		</div>
 	</div>
 
 
 
 <script src="js/jquery-3.3.1.min.js"></script>
-<!--<script src="js/bootstrap.min.js"></script>
-<script src="js/weui.js"></script>-->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/weui.js"></script>
 <script>
 
 </script>
